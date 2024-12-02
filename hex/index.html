@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hex Back</title>
+    <style>
+        body{
+            background-color: #101010;
+        }
+    #wrapper-hex {
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        animation: bg 25s linear infinite paused;
+        -webkit-mask-image: linear-gradient(90deg, transparent 0%, #ffffff 300px, #ffffff calc(100vw - 300px), transparent 100%);
+        mask-image: linear-gradient(90deg, transparent 0%, #ffffff 300px, #ffffff calc(100vw - 300px), transparent 100%);
+        z-index: 1;
+    }
+    #wrapper-hex::before,
+    #wrapper-hex::after {
+        content: "";
+        width: 100%;
+        height: 250px;
+        position: absolute;
+        z-index: 1;
+        left: 0px;
+    }
+    #wrapper-hex::before{
+        top: 0px;
+        background: linear-gradient(0deg, #17171700, #101010b3, #101010);
+    }
+    #wrapper-hex::after{
+        bottom: 0px;
+        background: linear-gradient(180deg, #17171700, #1010108a, #101010);
+    }
+
+    .bg-hex {
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(to right, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+        background: linear-gradient(45deg, #75b2df, #181818, #75b2df, #181818);
+        background: linear-gradient(45deg, #75b3df4b, #181818, #75b3df4b, #181818);
+        background-size: 400% 100%;
+        animation: bg 20s infinite;
+    }
+
+    @keyframes bg {
+        0% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
+        100% { background-position: 0% 50%; }
+    }
+    .svg-hex {
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        height: 100%;
+        background: url('../assets/img/hex.svg') no-repeat center;
+        background-size: cover;
+    }
+
+    .svg-hex polygon {
+        position: absolute;
+    }
+
+    </style>
+</head>
+<body>
+    <div id="wrapper-hex">
+        <div class="bg-hex">
+            <div class="svg-hex"></div>
+        </div>
+    </div>
+</body>
+</html>

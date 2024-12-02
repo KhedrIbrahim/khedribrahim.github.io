@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300;400;600&family=Big+Shoulders+Display:wght@700&family=Inter:wght@400;700&family=Karla:wght@300;400;700&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&family=Open+Sans&family=Outfit:wght@300;400;600;700&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Red+Hat+Display:wght@500;700;900&family=Rubik:wght@400;500;700&family=Spartan:wght@400;500;700&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Gsap -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Khedr Ibrahim - Portfolio</title>
+</head>
+<body>
+    <div class="all-in">
+        <!-- Header + Nav -->
+        <header class="cd-header">
+            <div class="header-wrapper">
+                <div class="nav-but-wrap">
+                    <div class="menu-icon hover-target">
+                        <span class="menu-icon__line menu-icon__line-left"></span>
+                        <span class="menu-icon__line"></span>
+                        <span class="menu-icon__line menu-icon__line-right"></span>
+                    </div>					
+                </div>
+                <div class="nav-name"><span class="f-let">@</span><span class="txt">KhedrIbrahim</span></div>
+            </div>				
+        </header>
+        <nav class="nav">
+            <div class="nav__content">
+                <ul class="nav__list">
+                    <li class="nav__list-item mov-link active-nav" ele-to-scroll="sectionHome"><a class="hover-target">Home</a></li>
+                    <li class="nav__list-item mov-link" ele-to-scroll="sectionAbout"><a class="hover-target">About</a></li>
+                    <li class="nav__list-item mov-link" ele-to-scroll="sectionCertificates"><a class="hover-target">Certifications</a></li>
+                    <li class="nav__list-item mov-link" ele-to-scroll="sectionExperience"><a class="hover-target">Experience</a></li>
+                    <li class="nav__list-item mov-link" ele-to-scroll="sectionSkills"><a class="hover-target">Skills</a></li>
+                    <li class="nav__list-item mov-link" ele-to-scroll="sectionProjects"><a class="hover-target">Projects</a></li>
+                    <li class="nav__list-item mov-link" ele-to-scroll="sectionContact"><a class="hover-target">Contact</a></li>
+                </ul>
+            </div>
+        </nav>		
+        <div class="navback"></div>
+
+        <!-- Home -->
+        <section class="home-sec" id="sectionHome">
+            <div class="stars-bg">
+                <div id="stars"></div>
+                <div id="stars2"></div>
+                <div id="stars3"></div>
+            </div>
+            <div class="contain">
+                <div class="bx-one">
+                    <div class="info inf-hero">
+                        <h1 class="tit"><span class="norm">Hi There,<br>I'm </span><span class="unq">Khedr Ibrahim</span></h1>
+                        <div class="sub-tit sub-hero">I Specialize In <span class="typing-text"></span></div>
+                    </div>
+                    <div class="btns-ele her-btns">
+                        <div class="row-btn">
+                            <a href="https://drive.google.com/file/d/1lgoh3q6vk3CgILma9a4wQKAXjU0_Uuez/view?usp=sharing" class="btn-st-one outline">Resume</a>
+                            <button class="btn-st-one outline mov-link" ele-to-scroll="sectionContact">Contact</button>
+                        </div>
+                        <div class="social-btns">
+                            <div class="link linkedin"><a href="https://linkedin.com/in/khedribrahim" target="_blank"><div class="icon"></div></a></div>
+                            <div class="link github"><a href="https://github.com/KhedrIbrahim" target="_blank"><div class="icon"></div></a></div>
+                            <div class="link fiverr"><a href="https://www.fiverr.com/khedribrahim" target="_blank"><div class="icon"></div></a></div>
+                            <div class="link upwork"><a href="https://www.upwork.com/freelancers/~0142c75552384e145b" target="_blank"><div class="icon"></div></a></div>
+                            <div class="link linktree"><a href="https://linktr.ee/khedribrahim" target="_blank"><div class="icon"></div></a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bx-two">
+                    <div class="img-ele hero-img"></div>
+                </div>
+            </div>
+        </section>
+        <!-- About -->
+        <section class="sec-about sec-basic" id="sectionAbout">
+            <div class="contain">
+                <div class="svg-lines">
+                    <div class="svg-box"></div>
+                </div>
+                <div class="head flx">
+                    <h3 class="title">About Me</h3>
+                </div>
+                <div class="dtls">
+                    <span class="txt">I'm Khedr Ibrahim, a web developer based in Dubai with a Bachelor's Degree in Information Technology. I specialize in building responsive websites and seamless user experiences using technologies like React, Next.js, and Node.js. As the lead developer for Watt Charge Mobilities, I built a comprehensive platform for mobile EV charging services. I’m passionate about solving technical challenges, optimizing performance, and improving SEO. Always eager to learn new technologies, I strive to deliver exceptional results in every project. Feel free to reach out if you’re looking for a dedicated developer!</span>
+                </div>
+                <div class="education">
+                    <div class="box">
+                        <div class="logo"><a href="https://ghrce.raisoni.net/" target="_blank" title="G. H. Raisoni College of Engineering, Nagpur"><div class="img"><img src="assets/img/logos/ghrce-logo.png" alt=""></div></a></div>
+                        <div class="info">
+                            <div class="row">Graduated from G H Raisoni College of Engineering with a <span class="txt-basic">Bachelor of Technology in Information Technology</span></div>
+                            <div class="row date">2019 - 2023</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications -->
+        <section class="sec-certificate sec-basic" id="sectionCertificates">
+            <div class="contain">
+                <div class="head flx">
+                    <h3 class="title">Certifications & Achievements</h3>
+                </div>
+                <div class="ele-box">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="bx google col-whit">
+                                    <a href="https://drive.google.com/file/d/1tOHSVYyVwtwugu8BC6G88kEC3Iwnrusr/view?usp=sharing" target="_blank">
+                                        <div class="logo"></div>
+                                        <div class="txt">Google UX Design</div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="bx infosys col-purp">
+                                    <a href="https://drive.google.com/file/d/1pEQTN-2eZEwWUxrFMQC1ZXbU0YS6mV_x/view?usp=sharing" target="_blank">
+                                        <div class="logo"></div>
+                                        <div class="txt">Infosys</div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="bx google col-whit">
+                                    <a href="https://drive.google.com/file/d/1j6McKwXH9JZ_Uui6NKA0-JN0kzD8GXq_/view?usp=sharing" target="_blank">
+                                        <div class="logo"></div>
+                                        <div class="txt">Google IT Support</div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="bx ijraset col-oran">
+                                    <a href="https://drive.google.com/file/d/1uUF3wS4TUd8DfW5TgaQ8t7s0uXRxEbXM/view?usp=sharing" target="_blank">
+                                        <div class="logo"></div>
+                                        <div class="txt">IJRASET49386</div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="bx courseragtc col-blu-two">
+                                    <a href="https://drive.google.com/file/d/15q4kq-JPo229cKMjushbdjDwLr7ANbUr/view?usp=sharing" target="_blank">
+                                        <div class="logo"></div>
+                                        <div class="txt">Coursera GTC</div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="bx twb col-yel">
+                                    <a href="https://drive.google.com/file/d/1gJaOzQLz_suHsFpGgJdo9xu1DhPQkqTY/view?usp=sharing" target="_blank">
+                                        <div class="logo"></div>
+                                        <div class="txt">Translators without Borders</div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="bx ijraset col-oran">
+                                    <a href="https://drive.google.com/file/d/11yy9wsypPRoqSc88jreGdfNOzcoR3hv0/view?usp=sharing" target="_blank">
+                                        <div class="logo"></div>
+                                        <div class="txt">IJRASET53796</div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="bx playero col-blu">
+                                    <a href="https://drive.google.com/file/d/164wPLZ41Ir51HvDxmgKAskZzO-eCyQqj/view?usp=sharing" target="_blank">
+                                        <div class="logo"></div>
+                                        <div class="txt">Player Orbit</div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="bx meta col-blu-two">
+                                    <a href="https://drive.google.com/file/d/1dnA7NU02ex0suQr-Vw_3aBxolTfzctKz/view?usp=sharing" target="_blank">
+                                        <div class="logo"></div>
+                                        <div class="txt">Meta Back-End Development</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience -->
+        <section class="sec-experience sec-basic" id="sectionExperience">
+            <div class="contain">
+                <div class="svg-lines">
+                    <div class="svg-box"></div>
+                </div>
+                <div class="head flx">
+                    <h3 class="title">Work Experience</h3>
+                </div>
+                <div class="timline-box">
+                    <div class="cont">
+                        <div class="box col-whit">
+                            <span class="line"></span>
+                            <div class="dtl-lft">
+                                <div class="logo watt"></div>
+                                <div class="inf">
+                                    <div class="date">Nov 2023 - CURRENT</div>
+                                    <div class="location">Dubai, UAE</div>
+                                </div>
+                            </div>
+                            <div class="dtls">
+                                <div class="head">
+                                    <div class="position">Web Developer</div>
+                                    <div class="company">Watt Charge Mobilities (Sinatra Holding)</div>
+                                </div>
+                                <div class="info">
+                                    <div class="row"><span class="dot"><img src="assets/img/icon/dot.png"></span> <span class="txt">Led the development and maintenance of wattcharge.io, an electric vehicle (EV) mobile charging service website, focusing onuser-friendly interface design and seamless functionality for both individual and corporate clients.</span></div>
+                                    <div class="row"><span class="dot"><img src="assets/img/icon/dot.png"></span> <span class="txt">Designed and developed additional websites under Sinatra Holding, such as sinatraholdings.com, watthelpcenter.com,sinatramoto.com, qr.wattcharge.io, sliverblack.com, and food.sinatraholdings.com, utilizing React JS for dynamic, high-performance web applications.</span></div>
+                                    <div class="row"><span class="dot"><img src="assets/img/icon/dot.png"></span> <span class="txt">Implemented SEO strategies to boost site visibility, improved search rankings, and optimized content to increase organic trafficfor the company's digital presence.</span></div>
+                                    <div class="row"><span class="dot"><img src="assets/img/icon/dot.png"></span> <span class="txt">Integrated various APIs and third-party services to enhance website features, including real-time database functionalities,booking systems, and payment gateways.</span></div>
+                                    <div class="row"><span class="dot"><img src="assets/img/icon/dot.png"></span> <span class="txt">Worked on cross-platform app development, ensuring optimal website performance across different devices and operatingsystems.</span></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box col-blu">
+                            <span class="line"></span>
+                            <div class="dtl-lft">
+                                <div class="logo playero"></div>
+                                <div class="inf">
+                                    <div class="date">Oct 2022 - June 2023</div>
+                                    <div class="location">Nagpur, India</div>
+                                </div>
+                            </div>
+                            <div class="dtls">
+                                <div class="head">
+                                    <div class="position">Web Developer</div>
+                                    <div class="company">PLAYER ORBIT PVT. LTD</div>
+                                </div>
+                                <div class="info">
+                                    <div class="row"><span class="dot"><img src="assets/img/icon/dot.png"></span> <span class="txt">Developed and maintained full-stack web applications, utilizing Laravel for backend development and React JS for frontend development.</span></div>
+                                    <div class="row"><span class="dot"><img src="assets/img/icon/dot.png"></span> <span class="txt">Designed responsive user interfaces using Bootstrap 5, HTML5, CSS3, and integrated jQuery for dynamic behavior.</span></div>
+                                    <div class="row"><span class="dot"><img src="assets/img/icon/dot.png"></span> <span class="txt">Built and integrated RESTful APIs for seamless data communication between frontend and backend systems.</span></div>
+                                    <div class="row"><span class="dot"><img src="assets/img/icon/dot.png"></span> <span class="txt">Used MySQL for database management, creating optimized SQL queries for fast and efficient data handling.</span></div>
+                                    <div class="row"><span class="dot"><img src="assets/img/icon/dot.png"></span> <span class="txt">Collaborated in an agile development environment, participating in code reviews, sprint planning, and project discussions.</span></div>
+                                    <div class="row"><span class="dot"><img src="assets/img/icon/dot.png"></span> <span class="txt">Managed code repositories using Git and ensured version control best practices.</span></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box col-whit">
+                            <span class="line"></span>
+                            <div class="dtl-lft">
+                                <div class="logo remostart"></div>
+                                <div class="inf">
+                                    <div class="date">June 2021 - Oct 2022</div>
+                                    <div class="location">Lagos, Nigeria</div>
+                                </div>
+                            </div>
+                            <div class="dtls">
+                                <div class="head">
+                                    <div class="position">Web Developer</div>
+                                    <div class="company">Remostart</div>
+                                </div>
+                                <div class="info">
+                                    <div class="row"><span class="dot"><img src="assets/img/icon/dot.png"></span> <span class="txt">Designed and developed both frontend and backend of web applications using HTML5, CSS3, JavaScript, Laravel, and MySQL.</span></div>
+                                    <div class="row"><span class="dot"><img src="assets/img/icon/dot.png"></span> <span class="txt">Developed and maintained RESTful APIs to connect frontend with backend services.</span></div>
+                                    <div class="row"><span class="dot"><img src="assets/img/icon/dot.png"></span> <span class="txt">Enhanced user interfaces with React JS and integrated jQuery for dynamic web elements.</span></div>
+                                    <div class="row"><span class="dot"><img src="assets/img/icon/dot.png"></span> <span class="txt">Wrote clean and optimized SQL queries for database management, improving performance and scalability.</span></div>
+                                    <div class="row"><span class="dot"><img src="assets/img/icon/dot.png"></span> <span class="txt"> Implemented SEO strategies to optimize content and increase the web application's search engine ranking.</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section class="tools-sec" id="sectionSkills">
+            <div class="content-box">
+                <div class="head flx">
+                    <h3 class="title">Frameworks and Development Tools</h3>
+                </div>
+                <div class="tools-bx">
+                    <div class="row fxd top">
+                        <div class="card-sm-one hov-bx"></div>
+                        <div class="card-sm-one hov-bx"></div>
+                        <div class="card-sm-one hov-bx"></div>
+                        <div class="card-sm-one hov-bx"></div>
+                        <div class="card-sm-one hov-bx"></div>
+                        <div class="card-sm-one hov-bx"></div>
+                        <div class="card-sm-one hov-bx"></div>
+                        <div class="card-sm-one hov-bx"></div>
+                        <div class="card-sm-one hov-bx"></div>
+                        <div class="card-sm-one hov-bx"></div>
+                        <div class="card-sm-one hov-bx"></div>
+                        <div class="card-sm-one hov-bx"></div>
+                        <div class="card-sm-one hov-bx"></div>
+                        <div class="card-sm-one hov-bx"></div>
+                        <div class="card-sm-one hov-bx"></div>
+                        <div class="card-sm-one hov-bx"></div>
+                        <div class="card-sm-one hov-bx"></div>
+                        <div class="card-sm-one hov-bx"></div>
+                        <div class="card-sm-one hov-bx"></div>
+                        <div class="card-sm-one hov-bx"></div>
+                    </div>
+                    <div class="row el-one">
+                        <div class="card-sm-one hov-bx cen-1 avai col-red-two" txt="HTML5"><img src="assets/img/icon/html.svg"></div>
+                        <div class="card-sm-one hov-bx cen-2 avai col-blu-two" txt="CSS3"><img src="assets/img/icon/css.svg"></div>
+                        <div class="card-sm-one hov-bx cen-3 avai col-yel" txt="JavaScript"><img src="assets/img/icon/js.svg"></div>
+                        <div class="card-sm-one hov-bx cen-4 avai col-purp" txt="Bootstrap"><img src="assets/img/icon/bootstrap.svg"></div>
+                        <div class="card-sm-one hov-bx cen-5 avai col-blu-two" txt="Tailwind"><img src="assets/img/icon/tailwind.svg"></div>
+                        <div class="card-sm-one hov-bx cen-6 avai col-purp" txt="jQuery"><img src="assets/img/icon/jquery.svg"></div>
+                        <div class="card-sm-one hov-bx cen-7 avai col-pink" txt="Sass"><img src="assets/img/icon/sass.svg"></div>
+                        <div class="card-sm-one hov-bx cen-8 avai col-red-two" txt="Git"><img src="assets/img/icon/git.svg"></div>
+                        <div class="card-sm-one hov-bx em-1"></div>
+                        <div class="card-sm-one hov-bx em-2"></div>
+                        <div class="card-sm-one hov-bx em-3"></div>
+                        <div class="card-sm-one hov-bx em-4"></div>
+                        <div class="card-sm-one hov-bx em-5"></div>
+                        <div class="card-sm-one hov-bx em-6"></div>
+                        <div class="card-sm-one hov-bx em-7"></div>
+                        <div class="card-sm-one hov-bx em-8"></div>
+                        <div class="card-sm-one hov-bx em-9"></div>
+                        <div class="card-sm-one hov-bx em-10"></div>
+                        <div class="card-sm-one hov-bx em-11"></div>
+                        <div class="card-sm-one hov-bx em-12"></div>
+                    </div>
+                    <div class="row el-two">
+                        <div class="card-sm-one hov-bx cen-9 avai col-purp" txt="GitHub"><img src="assets/img/icon/github.svg"></div>
+                        <div class="card-sm-one hov-bx cen-10 avai col-purp-two" txt="Redux"><img src="assets/img/icon/redux.svg"></div>
+                        <div class="card-sm-one hov-bx cen-11 avai col-blu" txt="React"><img src="assets/img/icon/react.svg"></div>
+                        <div class="card-sm-one hov-bx cen-12 avai col-purp" txt="Jira"><img src="assets/img/icon/jira.png"></div>
+                        <div class="card-sm-one hov-bx cen-13 avai col-yel" txt="Firebase"><img src="assets/img/icon/firebase.svg"></div>
+                        <div class="card-sm-one hov-bx cen-14 avai col-blu" txt="SQL"><img src="assets/img/icon/sql.svg"></div>
+                        <div class="card-sm-one hov-bx cen-15 avai col-blu-two" txt="TypeScript"><img src="assets/img/icon/typescript.svg"></div>
+                        <div class="card-sm-one hov-bx cen-16 avai col-blu-two" txt="WordPress"><img src="assets/img/icon/wordpress.png"></div>
+                        <div class="card-sm-one hov-bx em-13"></div>
+                        <div class="card-sm-one hov-bx em-14"></div>
+                        <div class="card-sm-one hov-bx em-15"></div>
+                        <div class="card-sm-one hov-bx em-16"></div>
+                        <div class="card-sm-one hov-bx em-17"></div>
+                        <div class="card-sm-one hov-bx em-18"></div>
+                        <div class="card-sm-one hov-bx em-19"></div>
+                        <div class="card-sm-one hov-bx em-20"></div>
+                        <div class="card-sm-one hov-bx em-21"></div>
+                        <div class="card-sm-one hov-bx em-22"></div>
+                        <div class="card-sm-one hov-bx em-23"></div>
+                        <div class="card-sm-one hov-bx em-24"></div>
+                    </div>
+                    <div class="row el-three">
+                        <div class="card-sm-one hov-bx cen-17 avai col-whit" txt="Next.js"><img src="assets/img/icon/nextjs.svg"></div>
+                        <div class="card-sm-one hov-bx cen-18 avai col-whit" txt="Vercel"><img src="assets/img/icon/vercel.svg"></div>
+                        <div class="card-sm-one hov-bx cen-19 avai col-green" txt="GSAP"><img src="assets/img/icon/gsap.svg"></div>
+                        <div class="card-sm-one hov-bx cen-20 avai col-whit" txt="Astro"><img src="assets/img/icon/astro.svg"></div>
+                        <div class="card-sm-one hov-bx cen-21 avai col-red" txt="Figma"><img src="assets/img/icon/figma.png"></div>
+                        <div class="card-sm-one hov-bx cen-22 avai col-green-two" txt="Node.js"><img src="assets/img/icon/nodejs.svg"></div>
+                        <div class="card-sm-one hov-bx cen-23 avai col-yel" txt="AWS"><img src="assets/img/icon/aws.svg"></div>
+                        <div class="card-sm-one hov-bx cen-24 avai col-blu" txt="Netlify"><img src="assets/img/icon/netlify.svg"></div>
+                        <div class="card-sm-one hov-bx em-25"></div>
+                        <div class="card-sm-one hov-bx em-26"></div>
+                        <div class="card-sm-one hov-bx em-27"></div>
+                        <div class="card-sm-one hov-bx em-28"></div>
+                        <div class="card-sm-one hov-bx em-29"></div>
+                        <div class="card-sm-one hov-bx em-30"></div>
+                        <div class="card-sm-one hov-bx em-31"></div>
+                        <div class="card-sm-one hov-bx em-32"></div>
+                        <div class="card-sm-one hov-bx em-33"></div>
+                        <div class="card-sm-one hov-bx em-34"></div>
+                        <div class="card-sm-one hov-bx em-35"></div>
+                        <div class="card-sm-one hov-bx em-36"></div>
+                    </div>
+                    <div class="row fxd bottom">
+                        <div class="card-sm-one hov-bx"></div>
+                        <div class="card-sm-one hov-bx"></div>
+                        <div class="card-sm-one hov-bx"></div>
+                        <div class="card-sm-one hov-bx"></div>
+                        <div class="card-sm-one hov-bx"></div>
+                        <div class="card-sm-one hov-bx"></div>
+                        <div class="card-sm-one hov-bx"></div>
+                        <div class="card-sm-one hov-bx"></div>
+                        <div class="card-sm-one hov-bx"></div>
+                        <div class="card-sm-one hov-bx avai col-green-two" txt="Nuxt.js"><img src="assets/img/icon/nuxtjs.svg"></div>
+                        <div class="card-sm-one hov-bx avai col-whit" txt="PHP"><img src="assets/img/icon/php.svg"></div>
+                        <div class="card-sm-one hov-bx"></div>
+                        <div class="card-sm-one hov-bx"></div>
+                        <div class="card-sm-one hov-bx"></div>
+                        <div class="card-sm-one hov-bx"></div>
+                        <div class="card-sm-one hov-bx"></div>
+                        <div class="card-sm-one hov-bx"></div>
+                        <div class="card-sm-one hov-bx"></div>
+                        <div class="card-sm-one hov-bx"></div>
+                        <div class="card-sm-one hov-bx"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="sec-projects sec-basic" id="sectionProjects">
+            <div class="back-g"></div>
+            <div class="contain">
+                <div class="head flx">
+                    <h3 class="title">Projects</h3>
+                </div>
+                <div class="content">
+                    <div class="card col-yel" txt="Watt Charge Mobilities" txt-domain="wattcharge.io">
+                        <div class="box-img watt"></div>
+                        <div class="box-btn"><a href="https://wattcharge.io/" target="_blank" class="hov-bx" title="Visit"></a></div>
+                        <span class="back"></span>
+                    </div>
+                    <div class="card col-blu" txt="Admin Dashboard" txt-domain="evhelpcenter.com">
+                        <div class="box-img admind"></div>
+                        <div class="box-btn"><a href="https://evhelpcenter.com/" target="_blank" class="hov-bx" title="Visit"></a></div>
+                        <span class="back"></span>
+                    </div>
+                    <div class="card col-pink" txt="Sinatra Holding" txt-domain="sinatraholdings.com">
+                        <div class="box-img sholding"></div>
+                        <div class="box-btn"><a href="https://sinatraholdings.com/" target="_blank" class="hov-bx" title="Visit"></a></div>
+                        <span class="back"></span>
+                    </div>
+                    <div class="card col-green" txt="QR" txt-domain="qr.wattcharge.io">
+                        <div class="box-img qr"></div>
+                        <div class="box-btn"><a href="https://qr.wattcharge.io/" target="_blank" class="hov-bx" title="Visit"></a></div>
+                        <span class="back"></span>
+                    </div>
+                    <div class="card col-blu-two" txt="Corporate Dashboard" txt-domain="evhelpcenter.com">
+                        <div class="box-img corpd"></div>
+                        <div class="box-btn"><a href="https://corporate.wattcharge.io/login/" target="_blank" class="hov-bx" title="Visit"></a></div>
+                        <span class="back"></span>
+                    </div>
+                    <div class="card col-red-two" txt="Sinatra Moto" txt-domain="sinatramoto.com">
+                        <div class="box-img smoto"></div>
+                        <div class="box-btn"><a href="https://sinatramoto.com/" target="_blank" class="hov-bx" title="Visit"></a></div>
+                        <span class="back"></span>
+                    </div>
+                    <div class="card col-yel" txt="Sinatra Food" txt-domain="food.sinatraholdings.com">
+                        <div class="box-img sfood"></div>
+                        <div class="box-btn"><a href="https://food.sinatraholdings.com/" target="_blank" class="hov-bx" title="Visit"></a></div>
+                        <span class="back"></span>
+                    </div>
+                    <div class="card col-purp" txt="Silver Back" txt-domain="sliverblack.com">
+                        <div class="box-img silverb"></div>
+                        <div class="box-btn"><a href="https://sliverblack.com/" target="_blank" class="hov-bx" title="Visit"></a></div>
+                        <span class="back"></span>
+                    </div>
+                    <div class="card col-pink" txt="Watt Help Center" txt-domain="watthelpcenter.com">
+                        <div class="box-img whc"></div>
+                        <div class="box-btn"><a href="https://watthelpcenter.com/" target="_blank" class="hov-bx" title="Visit"></a></div>
+                        <span class="back"></span>
+                    </div>
+                    <div class="card col-green-two" txt="Leon Template" txt-domain="github.com/KhedrIbrahim">
+                        <div class="box-img leon"></div>
+                        <div class="box-btn"><a href="https://khedribrahim.github.io/Leon-Template/" target="_blank" class="hov-bx" title="Visit"></a></div>
+                        <span class="back"></span>
+                    </div>
+                    <div class="card col-purp-two" txt="Kasper Template" txt-domain="github.com/KhedrIbrahim">
+                        <div class="box-img kasper"></div>
+                        <div class="box-btn"><a href="https://khedribrahim.github.io/Kasper-Template-Three/" target="_blank" class="hov-bx" title="Visit"></a></div>
+                        <span class="back"></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="sec-contact sec-basic" id="sectionContact">
+            <div class="contain">
+                <div class="head flx">
+                    <h3 class="title">Get in Touch</h3>
+                </div>
+                <div class="form-container">
+                    <form id="contactForm" action="https://formspree.io/f/xrbgoeyb" method="POST">
+                        <div class="bx-two">
+                            <div class="form-group">
+                                <input type="text" name="name" class="input-st-one" id="inpName" required>
+                                <label class="label-st-one">Name</label>
+                                <span class="error" id="errorEleName">Name must be at least 3 characters long.</span>
+                                <span class="asterisk"></span>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="email" class="input-st-one" id="inpEmail" inputmode="email" required>
+                                <label class="label-st-one">Email</label>
+                                <span class="error" id="errorEleEmail">Please enter a valid email address.</span>
+                                <span class="asterisk"></span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="input-st-one" name="message" id="inpMsg" required></textarea>
+                            <label class="label-st-one">Message</label>
+                            <span class="error" id="errorEleMsg">Message must be at least 10 characters long.</span>
+                            <span class="asterisk"></span>
+                        </div>
+                        <div class="row-btn end">
+                            <button class="btn-st-one primary" id="btnSubmit">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!-- Footer -->
+        <footer>
+            <div class="container">
+                <div class="links col-whit">
+                    <div class="links-box">
+                        <div class="link"><a href="https://linkedin.com/in/khedribrahim" target="_blank">LinkedIn</a></div>
+                        <div class="link"><a href="https://github.com/KhedrIbrahim" target="_blank">GitHub</a></div>
+                        <div class="link"><a href="https://www.fiverr.com/khedribrahim" target="_blank">Fiverr</a></div>
+                        <div class="link"><a href="https://www.upwork.com/freelancers/~0142c75552384e145b" target="_blank">Upwork</a></div>
+                    </div>
+                    <div class="links-box">
+                        <div class="link"><a href="https://buymeacoffee.com/KhedrIbrahim" target="_blank">Buy Me a Coffee</a></div>
+                        <div class="link"><a href="https://paypal.me/KhedrIbrahim" target="_blank">PayPal.Me</a></div>
+                        <div class="link"><a href="https://drive.google.com/file/d/1lgoh3q6vk3CgILma9a4wQKAXjU0_Uuez/view?usp=sharing" target="_blank">Resume</a></div>
+                        <div class="link"><a href="https://codepen.io/khedribrahim" target="_blank">CodePen</a></div>
+                    </div>
+                    <div class="links-box">
+                        <div class="link"><a href="https://www.facebook.com/KhedrIbrahim9" target="_blank">Facebook</a></div>
+                        <div class="link"><a href="https://www.instagram.com/KhedrIbrahim9" target="_blank">Instagram</a></div>
+                        <div class="link"><a href="https://www.youtube.com/@Khedr_Ibrahim" target="_blank">YouTube</a></div>
+                        <div class="link"><a href="https://www.tiktok.com/@khedribrahim9" target="_blank">TikTok</a></div>
+                    </div>
+                    <div class="links-box">
+                        <div class="link"><a href="https://wa.me/+971565108970" target="_blank">Whatsapp</a></div>
+                        <div class="link"><a href="https://www.coursera.org/user/c0968e35e0d521f8e48913b17d6f7021" target="_blank">Coursera</a></div>
+                        <div class="link"><a href="https://www.twitch.tv/khedribrahim" target="_blank">Twitch</a></div>
+                        <div class="link"><a href="https://www.pinterest.com/KhedrIbrahim9" target="_blank">Pinterest</a></div>
+                    </div>
+                    <div class="links-box last">
+                        <div class="link"><a href="https://linktr.ee/khedribrahim" target="_blank">LinkTree</a></div>
+                        <div class="link"><a href="https://community.translatorswb.org/u/khedribrahim174/" target="_blank">TWB</a></div>
+                        <div class="link"><a href="https://www.quora.com/profile/Khedr-Ibrahim-1/" target="_blank">Quora</a></div>
+                        <div class="link"><a href="https://x.com/KhedrIbrahim99" target="_blank">X</a></div>
+                    </div>
+                    <div class="info-box">
+                        <div class="inf"><div class="icon col-purp"><img src="assets/img/icon/phone.png"></div> <div class="txt"><a href="mailto:+971565108970">+971 56 510 8970</a></div></div>
+                        <div class="inf"><div class="icon col-purp"><img src="assets/img/icon/mail.png"></div> <div class="txt"><a href="mailto:khedribrahim999@gmail.com">khedribrahim999@gmail.com</a></div></div>
+                        <div class="inf"><div class="icon col-purp"><img src="assets/img/icon/location.png"></div> <div class="txt">Dubai, United Arab Emirates</div></div>
+                    </div>
+                </div>
+                <div class="copyright col-purp">Made with <span class="icon"><img src="assets/img/icon/heart.svg"></span> by <span><a href="https://www.linkedin.com/in/khedribrahim/" target="_blank" class="unq">Khedr Ibrahim</a></span></div>
+            </div>
+        </footer>
+        <!-- Footer -->
+        
+        <div class="popup success" id="popupSuccess">
+            <div class="box"><span class="icon flx"><img src="assets/img/icon/check-mark.png"></span> <span class="txt">Thanks <span id="senderName"></span>! Your message has been sent.</span></div>
+        </div>
+
+        <div class="popup erorr" id="popupError">
+            <div class="box"><span class="icon flx"><img src="assets/img/icon/warning.png"></span> <span class="txt">Oops! There was a problem with the submission.</span></div>
+        </div>
+    </div>
+
+    <div class="f-slide">
+        <div class="name f-name">{ Khedr Ibrahim }</div>
+    </div>
+
+    <script type="module" src="assets/js/master.js"></script>
+    <script type="module" src="form.js"></script>
+    <script type="module" src="assets/js/gsap.js"></script>
+    <script src="https://unpkg.com/@studio-freight/lenis"></script>
+    <script type="module" src="assets/js/smoothscroll.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js" integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="assets/js/swiper.js"></script>
+</body>
+</html>
