@@ -1625,7 +1625,7 @@ background: transparent;
 @media (max-width: 950px) {
     .home-sec .contain {
         flex-flow: column nowrap;
-        padding: 150px 0px 24px;
+        padding: 100px 0px 40px;
     }
     .home-sec .contain .bx-one {
         width: 100%;
