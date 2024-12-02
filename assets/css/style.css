@@ -2132,3 +2132,10 @@ footer .copyright a{
     bottom: -200px;
     opacity: 0;
 }
+
+
+@media (max-width: 950px) {
+    .f-slide .name{
+        font-size: 32px;
+    }
+}
