@@ -57,7 +57,7 @@ cards.forEach((card) => {
 
 // Hero Typing 
 var typed = new Typed(".typing-text", {
-    strings: ["Front-End Development", "Back-End Development", "Web Designing", "Full Stack Developer", "Web Development"],
+    strings: ["Front-End Development", "Back-End Development", "Web Designing", "Full Stack Development", "Web Development"],
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,
