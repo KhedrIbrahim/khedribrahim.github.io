@@ -1186,16 +1186,16 @@ body.nav-active .nav__list-item:nth-child(10) {
     background: url('../img/site/kasper.jpg') no-repeat center;
 }
 .sec-projects .content .card .box-img.real-est{
-    background: url('../img/site/72realestat.jpg') no-repeat center;
+    background: url('../img/site/72realestat.jpeg') no-repeat center;
 }
 .sec-projects .content .card .box-img.uvgroup{
-    background: url('../img/site/uvgrou.jpg') no-repeat center;
+    background: url('../img/site/uvgrou.jpeg') no-repeat center;
 }
 .sec-projects .content .card .box-img.picnic{
-    background: url('../img/site/picnicbaske.jpg') no-repeat center;
+    background: url('../img/site/picnicbaske.jpeg') no-repeat center;
 }
 .sec-projects .content .card .box-img.uvevents{
-    background: url('../img/site/uvevent.jpg') no-repeat center;
+    background: url('../img/site/uvevent.jpeg') no-repeat center;
 }
 .sec-projects .content .card .box-img:before{
     content: "";
