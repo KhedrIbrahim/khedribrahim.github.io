@@ -1197,6 +1197,9 @@ body.nav-active .nav__list-item:nth-child(10) {
 .sec-projects .content .card .box-img.uvevents{
     background: url('../img/site/uvevent.jpeg') no-repeat center;
 }
+.sec-projects .content .card .box-img.nextg{
+    background: url('../img/site/nextgenhome.jpeg') no-repeat center;
+}
 .sec-projects .content .card .box-img:before{
     content: "";
     width: 100%;
